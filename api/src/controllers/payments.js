@@ -259,7 +259,7 @@ function PaymentsControllerFactory (Auth, Payment, log, ledger, config, utils, s
      *      "address": "wallet2.alice.ae09e9c0-c4f9-423f-91de-fa1733640b2f",
      *      "amount": "10.00",
      *      "expires_at": "2016-09-06T22:47:01.668Z",
-     *      "condition": "cc:0:3:XcJRQrVJQKsXrXnpHIk1Nm7PBm5JfnFgmd8ocsexjO4:32"
+     *      "condition": "ni:///sha-256;XcJRQrVJQKsXrXnpHIk1Nm7PBm5JfnFgmd8ocsexjO4?fpt=preimage-sha-256&cost=32"
      *    }
      */
     static * setup() {
